@@ -1,4 +1,4 @@
-# Widgets module
+# utils module
 The `utils` module defines the utilities of the GUI.
 
 ## colorTable
@@ -22,7 +22,7 @@ The `utils` module defines the utilities of the GUI.
 
 * `processPILImageWithFlip`: Define the function to flip the images (translations ops).
 * `initImageObjFromNifity`: Load the raw nifty data to image objects.
-* `prompt`: 
+* `prompt`: Status recorder to represent the system's readiness to perform the next command
 * `cutv`: Cut the volume of the organs
 * `theRectPen`: Define the rectangular pen
 * `theCrossPen`: 
@@ -30,8 +30,8 @@ The `utils` module defines the utilities of the GUI.
 * `theBrushPen`:
 * `wrappaste`:
 * `affineMapping`: Map the 3D images along specific axis.
-* `computeViewSizeByNumImages`: 
-* `computeMargin`:
+* `computeViewSizeByNumImages`: Compute the view size 
+* `computeMargin`: Compute the margin for "zoom to fit"
 * `updateIndexWithAxis`: Update the indices by the axis directions.
 * `computeCoordinateByGrid`: Compute the coordinates by viewer size.
 * `getImageSizeByAxis`: Get the image size by the axis directions.
