@@ -1,10 +1,14 @@
 site_name: SegGUI
 theme: readthedocs
 nav:
+    - 'User Guide':
+        - 'shortcuts': 'User Guide/Shortcuts.md'
     - 'Developer Guide':
         - 'managers': 'Developer Guide/managers.md'
         - 'menubar': 'Developer Guide/menubar.md'
         - 'qtredux': 'Developer Guide/qtredux.md'
         - 'utils': 'Developer Guide/utils.md'
-        - 'viewer': 'Developer Guide/viewer.md'
+        - 'viewer': 
+            - 'viewers': 'Developer Guide/viewer.md'
+            - 'rendering': 'Developer Guide/rendering.md'
         - 'widgets': 'Developer Guide/widgets.md'
